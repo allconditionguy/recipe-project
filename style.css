@@ -1,0 +1,46 @@
+.picture{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay-text {
+    position: absolute; 
+    bottom:110;         
+    left:2%;          
+    transform: translate(-10%, 0); 
+    color:white;
+    font-size:18px;
+    margin-left:45px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: lighter;
+    text-indent: 15px;
+}
+
+.overlay-text-2{
+    position: absolute;  
+    bottom:15;          
+    left:2%;          
+    transform: translate(-10%, 0); 
+    color:black;
+    font-size:25px;
+    margin-left:55px;
+    font-weight:bold;
+    font-family: monospace;
+}
+
+.overlay-text-3{
+    position: absolute;
+    bottom: 15;
+    left: 20%;
+    transform: translate(-10%, 0);
+    color: white;
+    font-size:15px;
+    margin-left:100px;
+    font-weight:lighter;
+    font-family: unset;
+}
+
+
+  
