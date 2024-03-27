@@ -9,25 +9,28 @@
     bottom:110;         
     left:2%;          
     transform: translate(-10%, 0); 
-    color:white;
-    font-size:18px;
-    margin-left:45px;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: lighter;
-    text-indent: 15px;
-}
+    color:gainsboro;
+    font-size:10px;
+    margin-left:30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    text-indent:25px;
+    }
 
 .overlay-text-2{
     position: absolute;  
     bottom:15;          
     left:2%;          
     transform: translate(-10%, 0); 
-    color:black;
+    color:white;
     font-size:25px;
     margin-left:55px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
     font-weight:bold;
-    font-family: monospace;
+    text-indent:5px;
+    
 }
 
 .overlay-text-3{
@@ -37,9 +40,11 @@
     transform: translate(-10%, 0);
     color: white;
     font-size:15px;
-    margin-left:100px;
-    font-weight:lighter;
-    font-family: unset;
+    margin-left:250px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+   
 }
 
 
