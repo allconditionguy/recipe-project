@@ -37,9 +37,9 @@ h1, h2 {
 
   .grid-container {
     display:grid;
-    grid-template-rows: repeat(3,1fr);
-    gap:2px;
-    width:20px;
+    grid-template-rows: repeat(5,1fr);
+    gap:1px;
+    width:5px;
     margin: 0 auto;
     margin-left:0px;
     margin-right:150px;
@@ -47,8 +47,9 @@ h1, h2 {
    }
   
   .grid-item {
-    padding:3px;
+    padding:2px;
     text-align:left;
+    width: 500px;
     }
   
     .grid-container-one {
@@ -64,11 +65,8 @@ h1, h2 {
     .grid-item-one {
         padding:5px;
         text-align:right;
+        bottom: 0;
         }
  
-        .grid-item , .grid-item-one {
-            display:inline-block;
-            margin:2;
-            margin-left:0px;
-            margin-right: 40px;
-        }
+     
+
